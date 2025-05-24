@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&family=Rakkas&display=swap');
+
+/* Variáveis */
+:root {
+    --primary-color: #026773;
+    --secondary-color: #3CA6A6;
+    --text-color: #024959;
+    --background-color: #3eaf47;
+    --button-hover: #012E40;
+    --font-body: "Chocolate Classical Sans", serif;
+    --font-titulo: "Rakkas", serif;
+}
+
+/* código omitido */
+
+/* Reset */
+.tex {            
+    text-align: center;
+    background-color: rgba(255, 193, 35, 0.588);
+    padding: 1px; 
+    line-height:1.5;
+    border-radius: 20px;
+    width: 50%;
+    margin: 0 auto;
+}
+.texto {            
+    text-align: center;
+    background-color: rgba(148, 213, 86, 0.751);
+    padding: 1px; 
+    line-height:1.5;
+    border-radius: 20px;
+    width: 50%;
+    margin: 0 auto;
+
+
+    
+}
+.titulo{
+      text-align: center;
+      align-items: center;
+      
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-body);
+}
+
+/* Corpo da página */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.8;
+}
+
+h3 {
+    margin-top: 25px;
+}
+
+p {
+    margin-top: 22px;
+}
+
+img {
+    max-width: 90%;
+}
+
+
+footer {
+    background-color: rgba(0, 0, 0, 0.792);
+    color: white;
+    position: fixed;
+    bottom: 0.5rem;   
+    width: 100%;
+    text-align: center;
+    font-size: 0.8rem; 
+    height: 2.5rem;  
+    margin-top: 0;      
+}
+
+.im1{
+    margin: auto;
+    display: block;
+width: 15vw;
+background-color: #3eaf47;
+}
